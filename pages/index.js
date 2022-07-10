@@ -1,6 +1,4 @@
 import Head from "next/head";
-import NavBar from "@/components/shared/NavBar";
-import Introduction from "@/components/Introduction";
 
 export default function Home() {
   return (
@@ -11,11 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
-        <NavBar />
-
-        <Introduction />
-      </main>
+      <main className=""></main>
     </div>
   );
 }
